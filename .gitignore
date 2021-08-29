@@ -13,3 +13,14 @@ yarn-error.log
 
 go-omxremote.exe
 go-omxremote
+
+yarn.lock
+
+temp/
+
+# build file
+assets.go
+
+# client assets
+# should build every time
+clientAssets.go
