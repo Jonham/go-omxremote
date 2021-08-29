@@ -7,13 +7,21 @@ import (
 )
 
 var commandList = map[string]string{
-	"play":     "p",
-	"pause":    "p",
-	"nextsubs": "m",
-	"prevsubs": "n",
-	"stop":     "q",
-	"backward": "\x1b[D",
-	"forward":  "\x1b[C",
+	"play":           "p",
+	"pause":          "p",
+	"nextsubs":       "m",
+	"prevsubs":       "n",
+	"stop":           "q",
+	"backward":       "\x1b[D",
+	"forward":        "\x1b[C",
+	"ShowInfo":       "z",
+	"PreAudio":       "j",
+	"NextAudio":      "k",
+	"PreSubtitle":    "n",
+	"NextSubtitle":   "m",
+	"ToggleSubtitle": "s",
+	"IncreaseVolume": "+",
+	"DecreaseVolume": "-",
 }
 
 // Player is the struct that controls the playback on the omxplayer
